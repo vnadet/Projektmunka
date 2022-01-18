@@ -11,3 +11,17 @@ if szam >= 50:
     print("A szám 50-100 között van!")
 elif szam <= 50:
     print("A szám 0-50 között van!")
+for i in range(3):
+    tipp = int(input("Adjon meg egy tippet:"))
+    if tipp == szam:
+        print("Gratulálok! Kicsit nehezen, de eltaláltad!")
+        break
+print("Mivel még most sem találtad el, ezért még könnyebbé tesszük neked!")
+if szam <= 50 and szam >= 30:
+    print("A szám 50 és 30 között van!")
+elif szam <= 30 and szam >= 0:
+    print("A szám 0-30 között van!")
+if szam <= 70 and szam >= 50:
+    print("A szám 50-70 között van!")
+elif szam <= 100 and szam >= 70:
+    print("A szám 70-100 között van!")
